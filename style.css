@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* HERO */
+.hero {
+  height: 100vh;
+  background: linear-gradient(135deg, #6c63ff, #48c6ef);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero span {
+  color: #ffeaa7;
+}
+
+.btn {
+  margin-top: 20px;
+  padding: 12px 30px;
+  background: #fff;
+  color: #6c63ff;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: 600;
+}
+
+/* SECTIONS */
+section {
+  padding: 60px 10%;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* ABOUT */
+.about p {
+  max-width: 700px;
+  margin: auto;
+  text-align: center;
+}
+
+/* SKILLS */
+.skill-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.skill-list span {
+  background: #6c63ff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+/* PROJECTS */
+.projects {
+  background: #fff;
+}
+
+.project-card {
+  background: #f1f1f1;
+  padding: 25px;
+  border-radius: 15px;
+  margin: 15px auto;
+  max-width: 600px;
+}
+
+/* CONTACT */
+.contact {
+  text-align: center;
+}
+
+/* FOOTER */
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+}
